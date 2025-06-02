@@ -37,7 +37,7 @@ Foram desenvolvidos testes de interface utilizando a ferramenta **Playwright**, 
 ---
 
 ## 📁 Estrutura do Projeto
-
+```
 Desafio-DEVIO
 ├── .github
 │   ├── ISSUE_TEMPLATE
@@ -59,6 +59,7 @@ Desafio-DEVIO
 ├── playwright.config.js
 └── README.md
 ---
+```
 
 ## ✅ Considerações Finais
 
