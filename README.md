@@ -14,6 +14,7 @@ Foram realizados testes de navegação e funcionalidades da aplicação com foco
 **Resultados:**
 - 🐞 14 bugs encontrados
 - 💡 3 melhorias sugeridas
+- [Link para os relatorios](https://github.com/users/CaahG/projects/20)
 
 ---
 
@@ -23,8 +24,27 @@ Foram desenvolvidos testes de interface utilizando a ferramenta **Playwright**, 
 
 **Cenários cobertos:**
 - ✅ 3 testes positivos — verificam os fluxos principais com comportamento esperado
+  - Cadastro de cliente com sucesso
+  - Criação e remoção de cliente com sucesso
+  - Validação de criaçao e visualição de dados de cliente
 - ❌ 3 testes negativos — validam comportamentos incorretos identificados nos testes manuais (estes testes atualmente falham; passarão quando os bugs forem corrigidos)
+  - Cadastro sem informações obrigatórias
+  - Validação de campos de mascara de cadastro
+  - Validação de criaçao de cadastros duplicados
+ 
+---
 
+## 🚀 Executando Testes Automatizados
+
+Para executar os testes automatizados via **GitHub Actions** no fluxo de CI, siga os passos abaixo:
+
+1. 🧭 Acesse a aba **"Actions"** do repositório no GitHub.
+2. 📂 Clique em **"Playwright Tests"** na barra lateral esquerda.
+3. ▶️ Clique no botão **"Run workflow"** no canto superior direito.
+4. 🔁 Confirme clicando novamente em **"Run workflow"** na tela exibida.
+5. ⏳ Aguarde alguns segundos e clique na nova execução do job **"Playwright Tests"**.
+6. ✅ Aguarde a conclusão e verifique os **resultados dos testes**.
+  
 ---
 
 ## 🛠 Tecnologias Utilizadas
