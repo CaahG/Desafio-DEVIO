@@ -36,7 +36,7 @@ Foram desenvolvidos testes de interface utilizando a ferramenta **Playwright**, 
 
 ## 🚀 Executando Testes Automatizados
 
-Para executar os testes automatizados via **GitHub Actions** no fluxo de CI, siga os passos abaixo:
+Para executar os testes automatizados via **GitHub Actions** no fluxo de CI (Para executar os testes pela aba Actions, o usuario deve ser um contribuidor do repositorio), siga os passos abaixo:
 
 1. 🧭 Acesse a aba **"Actions"** do repositório no GitHub.
 2. 📂 Clique em **"Playwright Tests"** na barra lateral esquerda.
